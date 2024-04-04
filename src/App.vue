@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1> Slots in VueJS</h1>
+    <h1 class="heading"> Slots in VueJS</h1>
     <div id="app2">
       <Card><h2>Card 1</h2><img src="https://picsum.photos/200" width="210" height="200" /></Card>
       <Card><h2>Card 2</h2><img src="https://picsum.photos/300/200"  width="210" height="200"/></Card>
@@ -35,7 +35,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
   background-color: silver;
   display: flex;
 }
@@ -45,8 +45,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
   background-color:sandybrown;
   display: flex;
+}
+.heading{
+  background-color: antiquewhite;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 </style>
